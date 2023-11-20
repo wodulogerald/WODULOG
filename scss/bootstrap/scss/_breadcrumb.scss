@@ -20,7 +20,7 @@
       color: $breadcrumb-divider-color;
       content: var(--#{$variable-prefix}breadcrumb-divider, escape-svg($breadcrumb-divider)) #{"/* rtl:"} var(--#{$variable-prefix}breadcrumb-divider, escape-svg($breadcrumb-divider-flipped)) #{"*/"};
     }
-  }
+  } 
 
   &.active {
     color: $breadcrumb-active-color;

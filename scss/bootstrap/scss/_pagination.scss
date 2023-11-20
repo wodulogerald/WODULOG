@@ -11,7 +11,7 @@
   background-color: $pagination-bg;
   border: $pagination-border-width solid $pagination-border-color;
   @include transition($pagination-transition);
-
+ 
   &:hover {
     z-index: 2;
     color: $pagination-hover-color;

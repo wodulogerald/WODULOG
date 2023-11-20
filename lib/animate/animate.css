@@ -11,7 +11,7 @@
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
-}
+} 
 
 .animated.infinite {
   animation-iteration-count: infinite;

@@ -15,7 +15,7 @@
     @if type-of($properties) == "string" {
       $properties: append((), $properties);
     }
-
+ 
     // Use custom class if present
     $property-class: if(map-has-key($utility, class), map-get($utility, class), nth($properties, 1));
     $property-class: if($property-class == null, "", $property-class);

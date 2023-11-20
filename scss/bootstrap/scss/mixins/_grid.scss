@@ -25,7 +25,7 @@
   padding-left: calc(var(--#{$variable-prefix}gutter-x) / 2); // stylelint-disable-line function-disallowed-list
   margin-top: var(--#{$variable-prefix}gutter-y);
 }
-
+ 
 @mixin make-col($size: false, $columns: $grid-columns) {
   @if $size {
     flex: 0 0 auto;

@@ -10,7 +10,7 @@
         @warn "The keyword 'none' or 'null' must be used as a single argument.";
       }
     }
-  }
+  } 
 
   @if $enable-transitions {
     @if nth($transition, 1) != null {

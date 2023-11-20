@@ -15,7 +15,7 @@
   vertical-align: baseline;
   @include border-radius($badge-border-radius);
   @include gradient-bg();
-
+ 
   // Empty badges collapse automatically
   &:empty {
     display: none;

@@ -16,7 +16,7 @@
     width: 1%;
     min-width: 0; // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
   }
-
+ 
   // Bring the "active" form control to the top of surrounding elements
   > .form-control:focus,
   > .form-select:focus {

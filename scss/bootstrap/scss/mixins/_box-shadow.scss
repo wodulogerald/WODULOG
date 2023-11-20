@@ -10,7 +10,7 @@
         @warn "The keyword 'none' must be used as a single argument.";
       }
     }
-
+ 
     @if (length($result) > 0) {
       box-shadow: $result;
     }
